@@ -21,3 +21,8 @@ To make raw links fulfill: add a custom_field (server link) + metadata site=canm
 
 ## Directory submissions: NOT done
 Submitting listing forms is a public post under Matthew's name and wasn't explicitly approved. Candidates (free): IndieLineup, ListYourApp, Uneed, SaaSHub, BetaList, AlternativeTo; for canmyaiuse itself: mcp.so, glama.ai, PulseMCP.
+
+## 2026-10-25 21:49 EDT — vendor squeeze conversion fix
+- Removed 'downtime alerts' from Verified (replaced with 'Verified vendor label + badge upgrade').
+- Removed mid-page $1 kit box; tiny footer link only.
+- Featured $149/mo / Verified $49/mo CTAs → canmyaiuse.pages.dev/advertise/ only; no Payment Links, no Pro/Team.
