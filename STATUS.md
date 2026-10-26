@@ -1,12 +1,12 @@
 # EasyMoney MRR: status (2026-10-25 ~21:25 ET)
 
 ## Live landings (all CTAs checked 200 at ~21:24 ET)
-1. https://mattobie17.github.io/easymoney-mrr/  (GH Pages, owned by another worker): Featured -> buy.stripe.com/bJe3...VO05, Verified -> buy.stripe.com/5kQ3...L8nT (direct Stripe, per CEO). Local copy: public/index.html
+1. https://mattobie17.github.io/easymoney-mrr/  (GH Pages, owned by another worker): at ~21:24 ET still had raw Stripe Featured/Verified links; CEO corrected to /advertise/ at 21:23 and another worker is fixing that repo. Local public/index.html = advertise version.
 2. https://easymoney-mrr-mpobrien1717-9829.vercel.app/  (Vercel, older multi-plan page): Featured/Verified -> canmyaiuse /advertise/ checkout
 3. https://mattobie17.github.io/easymoney-cmau-ads/  (GH Pages, repo mattobie17/easymoney-cmau-ads, this worker): vendor squeeze, Featured/Verified -> /advertise/ checkout (auto-fulfilling), $1 kit secondary
 - Vercel redeploy: 403 on team_8NOpp9vZ992gckLq6rIlChQ2 (scope mpobrien1717-9829), so not redeployed.
 
-## Copy risk on landing 1
+## Copy risk on landing 1 (until its fix lands)
 Its Featured/Verified notes say "Paste your canmyaiuse server link... goes live automatically", but the raw Payment Links collect no server field and the webhook ignores them (see below). Either fix the copy ("we'll set up your placement after payment") or add a custom field + metadata to the links.
 
 ## Why NOT the raw Payment Links (bJe3... Featured / 5kQ3... Verified)
